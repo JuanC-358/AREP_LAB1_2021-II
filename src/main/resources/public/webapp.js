@@ -2,22 +2,21 @@ const webapp = (function () {
 
     const send = () => {
 
-        postMethod("", numbers);
+        postMethod();
     }
 
-    const postMethod = (listNum, numbers) => {
-        const promise = $.post({
+    const postMethod = () => {
+        /*const promise = $.post({
             url: "/inputdata",
             data: JSON.stringify(""),
             contentType: "application/json"
         });
         promise.then((data) => {
             alert("A");
-            return;
         }, (error) => {
             alert("B");
-            return;
-        });
+        });*/
+        window.location.href = "http://localhost:4567/inputdata";
     }
 
     return {

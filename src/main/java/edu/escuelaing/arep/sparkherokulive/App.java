@@ -3,7 +3,7 @@ package edu.escuelaing.arep.sparkherokulive;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import static spark.Spark.*;
+//import static spark.Spark.*;
 import spark.Request;
 import spark.Response;
 
@@ -33,7 +33,6 @@ public class App
                 + "  <input type=\"text\" name=\"firstname\" value=\"Mickey\">"
                 + "  <br>"
                 + "  Last name:<br>"
-                + "  <input type=\"text\" name=\"lastname\" value=\"Mouse\">"
                 + "  <br><br>"
                 + "  <input type=\"submit\" value=\"Submit\">"
                 + "</form>"

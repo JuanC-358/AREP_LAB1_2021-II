@@ -1,10 +1,7 @@
 
 package edu.escuelaing.arep.sparkherokulive;
 
-/**
- *
- * @author Ricardo
- */
+
 public class IEXAPIHttpStockService extends HttpStockService {
     String stock= "fb";
     @Override
